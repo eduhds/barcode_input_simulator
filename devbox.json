@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "python@3.11",
+    "pipenv@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "pipenv shell"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
