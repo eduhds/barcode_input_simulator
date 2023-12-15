@@ -5,7 +5,8 @@ name = "pypi"
 
 [packages]
 pynput = "*"
-pyobjc-framework-quartz = "*"
+pyobjc-framework-quartz = {version = "*", sys_platform = "=='macos'"}
+wheel = "*"
 
 [dev-packages]
 
