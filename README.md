@@ -32,7 +32,7 @@ python __main__.py -f assets/example.json
 ## Known issues
 
 - Try running with `python3` instead `python` to avoid version and symlink errors.
-- On macOS you need to trust your Terminal/IDE apps to solve error: _This process is not trusted! Input event monitoring will not be possible until it is added to accessibility clients._
+- On macOS you need to trust your Terminal/IDE apps to solve error: _"This process is not trusted! Input event monitoring will not be possible until it is added to accessibility clients"._
   - Open **System Preferences > Security and Privacy > Privacy Tab**
   - Select **Accssibility** and **Input monitoring**
   - Click on **+** to add apps
